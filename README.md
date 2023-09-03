@@ -1,2 +1,2 @@
 # Lucas Custódio
-✰ Portifólio feito em HMTL, CSS e Typescript ✰
+✰ Portfólio feito em HMTL, CSS e Typescript ✰
