@@ -3,37 +3,110 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles.css" />
     <title>Lucas Custódio</title>
+    <link rel="icon" type="image/x-icon" href="/media/LC-LOGO.ico" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="scripts.js" defer></script>
   </head>
-  <body>
+  <body class="checkered-background">
     <div class="portfolio-container">
       <div class="about-me-container">
         <h1 class="about-me-title">Lucas Custódio</h1>
-        <img
-        class="about-me-image"
-        src="https://avatars.githubusercontent.com/u/86917624?v=4"
-        alt="Lucas Custódio"
-        />
-        <div class="socials-container">
-        <button>
-          <a href="#">Github</a>
-        </button>
-        <button>
-          <a href="#">Linkedin</a>
-        </button>
+        <picture class="about-me-img-container">
+          <img
+            class="about-me-img"
+            src="https://avatars.githubusercontent.com/u/86917624?v=4"
+            alt="Foto do Lucas Custódio"
+          />
+        </picture>
+        <div class="social-buttons-container">
+          <a href="https://github.com/mamutthe" target="_blank">
+            <button class="social-button github-button">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="28"
+                height="28"
+                class="social-icon"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+                ></path>
+              </svg>
+            </button>
+          </a>
+          <a href="badHTML.html">
+            <button class="troll-button">Não clique!</button>
+          </a>
+        </div>
       </div>
-      <div class="about-me-footer"></div>
-    </div>
-    <div class="projects-container">
-      <span class="projects-title">temos um titulo kkk</span>
-      <img class="projects-preview" src="" alt="" />
-      <div class="projects-info-bar">
-        <div class="projects-description">- temos uma descrição</div>
-        <button class="access-project">Acessar</button>
+      <div class="projects-container">
+        <span class="projects-title">Projetos</span>
+        <span class="project-name"></span>
+        <div class="projects-slider-container">
+          <button class="slide-button prev-slide-button">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="slide-button-icon"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M19.5 12h-15m0 0l6.75 6.75M4.5 12l6.75-6.75"
+              />
+            </svg>
+          </button>
+          <picture class="project-img-container">
+            <img class="project-img" src="" alt="Imagem do Projeto"/>
+          </picture>
+          <button class="slide-button next-slide-button">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="slide-button-icon"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"
+              />
+            </svg>
+          </button>
+        </div>
+        <div class="project-description-container">
+          <span class="project-description"> </span>
+          <a id="project-link" href="#" target="_blank">
+            <button class="access-button">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="access-button-icon"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"
+                />
+              </svg>
+            </button>
+          </a>
+        </div>
       </div>
-      <div class="slider-dots">. . .</div>
     </div>
-  </div>
   </body>
 </html>
